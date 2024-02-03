@@ -1,0 +1,25 @@
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.book-table, .book-table th, .book-table td {
+    border: 1px solid black;
+}
+.book-table th, .book-table td {
+    padding: 10px;
+    text-align: left;
+}
+.book-cover {
+    width: 100px;
+}
+.favorite-food {
+    float: left;
+    margin-right: 10px;
+    width: 25%;
+    height: auto;
+}
+
+.clear-float {
+    clear: both;
+}
